@@ -2,9 +2,9 @@ import React, { Component } from 'react'
 
 export class Bomb extends Component {
     
-    state = {
-        secondsLeft: 120
-    }
+    // state = {
+    //     secondsLeft: 120
+    // }
     
     constructor(props) {
         super()
