@@ -13,10 +13,10 @@ export class Bomb extends Component {
         }
     }
     render() {
-        let zeroSeconds = this.state.secondsLeft === 0 ? "Boom!" : `${this.state.secondsLeft} seconds left before I go boom!`;
+        let countConditional = this.state.secondsLeft === 0 ? "Boom!" : `${this.state.secondsLeft} seconds left before I go boom!`;
         return (
             <div>
-                {zeroSeconds}
+                {countConditional}
             </div>
         )
     }
