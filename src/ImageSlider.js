@@ -1,5 +1,4 @@
-import React from 'react';
-import Bomb from './Bomb'
+import React, { Component } from 'react';
 
 export default class ImageSlider extends Component {
     constructor() {
