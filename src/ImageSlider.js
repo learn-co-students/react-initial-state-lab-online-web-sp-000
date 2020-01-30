@@ -1,7 +1,7 @@
 // your ImageSlider code here!
 import React, {Component} from 'react'
 
-export default class ImageSlider extends Component {
+class ImageSlider extends Component {
     
     constructor() {
         super() //required if we are to use this
@@ -18,3 +18,5 @@ export default class ImageSlider extends Component {
         )
     }   
 }
+
+export default ImageSlider

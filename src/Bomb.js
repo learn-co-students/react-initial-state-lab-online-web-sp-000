@@ -1,7 +1,7 @@
 // your Bomb code here!
 import React, {Component} from 'react'
 
-export default class Bomb extends Component {
+class Bomb extends Component {
 
     constructor(props) { //component's props are passed in as an argument
         super() //required if we are to use this
@@ -17,3 +17,5 @@ export default class Bomb extends Component {
         )
     }
 }
+
+export default Bomb
