@@ -9,14 +9,9 @@ export default class Bomb extends Component {
     }
   }
   
-  clickHandler = () => {
-    this.setState({
-      color: '#333'
-    });
-  }
   
   render() {
-    return this.state.secondsLeft > 0 ? (`${this.state.secondsLeft} seconds left before I go boom!`) : ("Boom!")
+    return this.state.secondsLeft > 0 ? (`${this.state.secondsLeft} seconds left before I go boom!`) : ("Boom!");
   }
   
 }
