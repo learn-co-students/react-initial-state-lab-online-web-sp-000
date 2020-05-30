@@ -11,14 +11,11 @@ class Bomb extends Component {
 	}
 
 	countdown() {
-		let i = 10
-		if (this.state.secondsLeft > 0 && i > 0) {
+		if (this.state.secondsLeft > 0) {
 			setTimeout(() => {
 				this.setState({
 					secondsLeft: this.state.secondsLeft - 1
 				})
-
-				i =- 1	
 
 				this.countdown()			
 			}, 1000)
