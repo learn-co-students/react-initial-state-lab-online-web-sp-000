@@ -5,9 +5,9 @@
     "passes": 5,
     "pending": 0,
     "failures": 0,
-    "start": "2020-08-20T20:37:51.906Z",
-    "end": "2020-08-20T20:37:51.927Z",
-    "duration": 21
+    "start": "2020-08-22T18:37:16.033Z",
+    "end": "2020-08-22T18:37:16.063Z",
+    "duration": 30
   },
   "tests": [
     {
@@ -34,14 +34,14 @@
     {
       "title": "render the correct text when the timer is not 0",
       "fullTitle": "<Bomb /> render the correct text when the timer is not 0",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "render the correct text when the timer is 0",
       "fullTitle": "<Bomb /> render the correct text when the timer is 0",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     }
@@ -73,14 +73,14 @@
     {
       "title": "render the correct text when the timer is not 0",
       "fullTitle": "<Bomb /> render the correct text when the timer is not 0",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "render the correct text when the timer is 0",
       "fullTitle": "<Bomb /> render the correct text when the timer is 0",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     }
