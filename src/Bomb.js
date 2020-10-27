@@ -10,8 +10,16 @@ export default class Bomb extends Component {
         }
     }
 
+    countDown = (event) => {
+        this.setState({
+            secondsLeft: this.state.secondsLeft - 1
+        })
+        
+        return this.state.secondsLeft
+    }
 
     render() {
+        setTimeout(this.countDown, 1000)
         if (this.state.secondsLeft === 0) {
             return <div>Boom!</div>
         } else {
