@@ -11,11 +11,6 @@ export default class Bomb extends Component {
     }
     
     render() {
-        console.log(this)
-        if (this.props.initialCount === 0) {
-            return "Boom!"
-        }
-        return `${this.props.initialCount} seconds left before I go boom!`
-        // If secondsLeft equals 0, it should render 'Boom!' instead.
+        return (this.props.initialCount === 0) ? "Boom!" : `${this.props.initialCount} seconds left before I go boom!`
     }
 }
