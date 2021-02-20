@@ -4,9 +4,23 @@ import { Component } from "react";
 import React from 'react'
 
 export default class Bomb extends React.Component {
+
+   constructor(props) {
+      super(props);
+      this.state = {
+         secondsLeft: this.props.initialCount
+      }
+   }
+
+   updateTimer = () => {
+      this.setState({
+         
+      })
+   }
+
    render() {
       return (
-         <div></div>
+         <div>{this.state.secondsLeft} seconds left before I go boom!</div>
       )
    }
 }
