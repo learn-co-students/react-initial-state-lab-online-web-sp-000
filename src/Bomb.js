@@ -8,19 +8,18 @@ export default class Bomb extends React.Component {
    constructor(props) {
       super(props);
       this.state = {
-         secondsLeft: this.props.initialCount
+         secondsLeft: props.initialCount
       }
    }
 
-   updateTimer = () => {
-      this.setState({
-         
-      })
-   }
-
    render() {
-      return (
-         <div>{this.state.secondsLeft} seconds left before I go boom!</div>
+      const timerResult = this.state.secondsLeft === 0 ? "Boom!" :
+      `${this.state.secondsLeft} seconds left before I go boom!`
+      
+      return (  
+         <div>
+            {timerResult}
+         </div>
       )
    }
 }
